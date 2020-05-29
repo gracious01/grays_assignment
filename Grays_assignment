@@ -1,0 +1,20 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>
+Assignment
+</title>
+</head>
+<body>
+<script>
+var p = 100000; t = 2; r = 10;
+var SI = (p*r*t)/100;
+console.log(SI, "where p = 100000, t = 2, r = 10")
+
+p = 100000; t = 2; r = 0.025; n = 12;
+var CI = (p*(1+(r/n))**(t*n))-p
+console.log(CI, "where p = 100000, t = 2, r = 2.5, n = 12")
+document.write("Since The Interest On The Principal Amount When Compounded Is Less Than The Simple Interes At Their Specified Rates, I'd Advise Joseph To Accept The Conditions Of The Second Bank.")
+</script>
+</body>
+</html
